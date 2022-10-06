@@ -1,0 +1,93 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) {
+  img.imges {
+    width: 19em;
+    background-image: none;
+  }
+  img.img {
+    width: 17em;
+  }
+  img.img-eng {
+    width: 25em;
+  }
+  footer.section-footer {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+  img.imges {
+    width: 19em;
+    background-image: none;
+  }
+  img.img {
+    width: 17em;
+  }
+  img.img-eng {
+    width: 25em;
+  }
+  .div-img-icons {
+    display: block;
+  }
+  h2.hed-form {
+    padding-left: 4em;
+  }
+  .but-form {
+    padding-left: 2.5rem;
+  }
+  img.img-googel {
+    margin-left: 2em;
+  }
+  .div-span-form {
+    margin-left: 2em;
+  }
+  button.button-form {
+    padding: 0.3em 2em;
+  }
+  footer.section-footer {
+    display: none;
+  }
+  .col-hed {
+    display: contents;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  img.img {
+    width: 24em;
+  }
+  img.imges {
+    width: 25em;
+    background-image: url(/img/Concentric\ circles.png);
+  }
+  footer.section-footer {
+    display: block;
+  }
+  .but-form {
+    padding-left: 2.5rem;
+  }
+  img.img-googel {
+    margin-left: 5em;
+  }
+  .div-span-form {
+    margin-left: 3em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .but-form {
+    padding-left: 9.5rem;
+  }
+  img.img-googel {
+    margin-left: 13em;
+  }
+  .div-span-form {
+    margin-left: 12em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
